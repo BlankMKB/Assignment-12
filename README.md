@@ -12,7 +12,9 @@ Determine the MST (identify edges and total mileage).
 
 <img src='graph.png' title='Graph' width='' alt='Graph' />
 
+
 ## Outputs
+
 
 ### Part A (Djikstra's Algorithm)
 ````
