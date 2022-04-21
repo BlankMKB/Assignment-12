@@ -7,6 +7,9 @@ Implement Dijkstra’s to find the shortest distance from Dallas to the cities o
 ## __Part B__
 Determine the MST (identify edges and total mileage).
 
+
+## Graph
+
 <img src='graph.png' title='Graph' width='' alt='Graph' />
 
 ## Outputs
