@@ -10,7 +10,7 @@ Determine the MST (identify edges and total mileage).
 
 ## Graph
 
-<img src='graph.png' title='Graph' width='' alt='Graph' />
+<img src='sources/graph.png' title='Graph' width='' alt='Graph' />
 
 
 ## Outputs
