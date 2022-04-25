@@ -73,6 +73,13 @@ int main() {
 
     //call djikstra's algorithm
     g.djikstra("Dallas");
+
+   std::cout << "============================" << std::endl;
+    std::cout << "PART B: MST" << std::endl;
+    std::cout << "============================" << std::endl << std::endl;
+
+    // call MST algo
+    g.MST("Dallas");
     //END OF ASSIGNMENT 12
 
     //ASSIGNMENT 11
@@ -113,7 +120,9 @@ int main() {
     g.printTotalDist();
     */
     //END OF ASSIGNMENT 11
-    
+
+
+  
     return 0;
 }
 /*

@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <unordered_map>
 #include <iomanip>
+#include <bits/stdc++.h>
 
 //vertex struct
 struct vertex {
@@ -153,6 +154,13 @@ public:
     
     //print path
     void printPath(int[], int, std::string&);
+
+    // MST algo
+    void MST(const std::string& name);
+
+    // print MST
+    void printMST(int x, int y);
+
 };
 
 #endif

@@ -1,63 +1,91 @@
- **************************************************************************************
- Assignment 12 - Djikstra's Algorithm & MST (Minimum Spanning Tree)
- --------------------------------------------------------------------------------------
- This program has two parts.
- In Part A, we use Djikstra's Algorithm to determine the
- shortest path from Dallas to all the other cities. This algorithm uses an adjacency
- matrix representation of a graph.
- In Part B, we determine the MST (minimum spanning tree) starting at Dallas, identifying
- all edges and total mileage.
- --------------------------------------------------------------------------------------
- PROCESSING
- --------------------------------------------------------------------------------------
- graph - used for part A of the assignment (Djikstra's)
+**************************************************************************************
+Assignment 12 - Djikstra's Algorithm & MST (Minimum Spanning Tree)
+--------------------------------------------------------------------------------------
+This program has two parts.
+In Part A, we use Djikstra's Algorithm to determine the
+shortest path from Dallas to all the other cities. This algorithm uses an adjacency
+matrix representation of a graph.
+In Part B, we determine the MST (minimum spanning tree) starting at Dallas, identifying
+all edges and total mileage.
+--------------------------------------------------------------------------------------
+PROCESSING
+--------------------------------------------------------------------------------------
+graph - used for part A of the assignment (Djikstra's)
 
- OUTPUT
- --------------------------------------------------------------------------------------
- (see below)
- --------------------------------------------------------------------------------------
- CS1D  MW 2:30 - 5 PM Lebowitz
- Programmed by : Warren Kim & Cyrus Azad
- 04-25-22
- **************************************************************************************
+OUTPUT
+--------------------------------------------------------------------------------------
+(see below)
+--------------------------------------------------------------------------------------
+CS1D  MW 2:30 - 5 PM Lebowitz
+Programmed by : Warren Kim & Cyrus Azad
+04-25-22
+**************************************************************************************
 
 
- ============================
- PART A: Djikstra's Algorithm
- ============================
+============================
+PART A: Djikstra's Algorithm
+============================
 
- Dallas to Seattle: 2426 mi
- path from Dallas to Seattle: Dallas->Kansas City->Denver->Seattle
+Dallas to Seattle: 2426 mi
+path from Dallas to Seattle: Dallas->Kansas City->Denver->Seattle
 
- Dallas to San Francisco: 1816 mi
- path from Dallas to San Francisco: Dallas->Los Angeles->San Francisco
+Dallas to San Francisco: 1816 mi
+path from Dallas to San Francisco: Dallas->Los Angeles->San Francisco
 
- Dallas to Denver: 1095 mi
- path from Dallas to Denver: Dallas->Kansas City->Denver
+Dallas to Denver: 1095 mi
+path from Dallas to Denver: Dallas->Kansas City->Denver
 
- Dallas to Chicago: 1029 mi
- path from Dallas to Chicago: Dallas->Kansas City->Chicago
+Dallas to Chicago: 1029 mi
+path from Dallas to Chicago: Dallas->Kansas City->Chicago
 
- Dallas to Boston: 1883 mi
- path from Dallas to Boston: Dallas->Atlanta->New York->Boston
+Dallas to Boston: 1883 mi
+path from Dallas to Boston: Dallas->Atlanta->New York->Boston
 
- Dallas to New York: 1669 mi
- path from Dallas to New York: Dallas->Atlanta->New York
+Dallas to New York: 1669 mi
+path from Dallas to New York: Dallas->Atlanta->New York
 
- Dallas to Los Angeles: 1435 mi
- path from Dallas to Los Angeles: Dallas->Los Angeles
+Dallas to Los Angeles: 1435 mi
+path from Dallas to Los Angeles: Dallas->Los Angeles
 
- Dallas to Kansas City: 496 mi
- path from Dallas to Kansas City: Dallas->Kansas City
+Dallas to Kansas City: 496 mi
+path from Dallas to Kansas City: Dallas->Kansas City
 
- Dallas to Atlanta: 781 mi
- path from Dallas to Atlanta: Dallas->Atlanta
+Dallas to Atlanta: 781 mi
+path from Dallas to Atlanta: Dallas->Atlanta
 
- Dallas to Dallas: 0 mi
- path from Dallas to Dallas: Dallas
+Dallas to Dallas: 0 mi
+path from Dallas to Dallas: Dallas
 
- Dallas to Houston: 239 mi
- path from Dallas to Houston: Dallas->Houston
+Dallas to Houston: 239 mi
+path from Dallas to Houston: Dallas->Houston
 
- Dallas to Miami: 1426 mi
- path from Dallas to Miami: Dallas->Houston->Miami
+Dallas to Miami: 1426 mi
+path from Dallas to Miami: Dallas->Houston->Miami
+
+============================
+PART B: MST
+============================
+
+Dallas--->Houston : 239 mi
+
+Dallas--->Kansas City : 496 mi
+
+Kansas City--->Chicago : 533 mi
+
+Kansas City--->Denver : 599 mi
+
+Dallas--->Atlanta : 781 mi
+
+Atlanta--->Miami : 661 mi
+
+Chicago--->New York : 787 mi
+
+New York--->Boston : 214 mi
+
+Denver--->Los Angeles : 1015 mi
+
+Los Angeles--->San Francisco : 381 mi
+
+San Francisco--->Seattle : 807 mi
+
+Total mileage: 6513 mi
