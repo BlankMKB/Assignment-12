@@ -60,4 +60,28 @@ path from Dallas to Miami: Dallas->Houston->Miami
 ````
     
 ### Part B (MST)
-    
+````
+Dallas--->Houston : 239 mi
+
+Dallas--->Kansas City : 496 mi
+
+Kansas City--->Chicago : 533 mi
+
+Kansas City--->Denver : 599 mi
+
+Dallas--->Atlanta : 781 mi
+
+Atlanta--->Miami : 661 mi
+
+Chicago--->New York : 787 mi
+
+New York--->Boston : 214 mi
+
+Denver--->Los Angeles : 1015 mi
+
+Los Angeles--->San Francisco : 381 mi
+
+San Francisco--->Seattle : 807 mi
+
+Total mileage: 6513 mi
+````
